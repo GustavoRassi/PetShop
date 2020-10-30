@@ -164,14 +164,14 @@ int main()
 			default: invalid = true;
 		}
 		if (invalid == true)
-			cout << "***ERROR - Letra no esta definida o el peso no es valido.***" << endl;
+			cout << "***ERROR - Letter or weight is not valid***" << endl;
 		if (checkout == true)
 			cout << "\nYour amount to pay will be: $" << final_total << endl;
 
 		cout << "\nType 'e' to exit or 'm' to go back to the main menu." << endl;
 		cout << "> ";
 		cin >> answer;
-	}while (answer != 'e');
+	} while (answer != 'e');
 
 	system("pause");
 	return EXIT_SUCCESS;
